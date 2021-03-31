@@ -6,9 +6,8 @@
 </template>
 
 
-
-<style>
-body {
-	background-color: #fbf6f0;
-}
+<style lang="scss">
+@import "~/assets/scss/styles.scss";
 </style>
+
+

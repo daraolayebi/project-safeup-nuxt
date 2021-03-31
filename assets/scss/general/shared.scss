@@ -1,52 +1,70 @@
 html {
-  font-family: 'Inter', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: normal;
-  font-size: 62.5%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    font-size: 62.5%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
 }
 
-select {
-  outline: none;
+body {
+    font-family: "Inter", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    color: #515151;
+    background-color: $color-cream;
 }
 
-.c-app {
-  max-width: 100%;
-  margin: 0 auto;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Canela", sans-serif;
+    font-weight: normal;
 }
 
-.c-nav {
-  width: 100%;
+bold {
+    font-weight: 500;
 }
 
-.u-radius-md {
-  border-radius: $radius-md;
+section {
+    min-height: 90vh;
 }
 
-.u-radius-sm {
-  border-radius: $radius-sm;
-}
-
-.u-radius-lg {
-  border-radius: $radius-lg;
-}
-
-.container {
-  width: $container-width-default;
-  margin: auto;
-  position: relative;
-  max-width: 100%;
-  @include medium {
-    padding: 0 20px;
-  }
-}
+// select {
+//     outline: none;
+// }
+// .c-app {
+//     max-width: 100%;
+//     margin: 0 auto;
+// }
+// .c-nav {
+//     width: 100%;
+// }
+// .u-radius-md {
+//     border-radius: $radius-md;
+// }
+// .u-radius-sm {
+//     border-radius: $radius-sm;
+// }
+// .u-radius-lg {
+//     border-radius: $radius-lg;
+// }
+// .container {
+//     width: $container-width-default;
+//     margin: auto;
+//     position: relative;
+//     max-width: 100%;
+//     @include medium {
+//         padding: 0 20px;
+//     }
+// }

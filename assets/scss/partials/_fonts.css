@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Basier Circle";
+  font-weight: normal;
+  src: url("https://res.cloudinary.com/dqyhh2jit/raw/upload/v1616442463/safeup/BasierCircle-Regular_s0cy7o.woff2") format("woff2");
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  font-weight: 500;
+  src: url("https://res.cloudinary.com/dqyhh2jit/raw/upload/v1616442463/safeup/BasierCircle-Medium_avxh7e.woff2") format("woff2");
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Basier Circle";
+  font-weight: 600;
+  src: url("https://res.cloudinary.com/dqyhh2jit/raw/upload/v1616442463/safeup/BasierCircle-SemiBold_cdphzj.woff2") format("woff2");
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-weight: 400;
+  src: url("https://res.cloudinary.com/dqyhh2jit/raw/upload/v1617031697/safeup/founders-grotesk-regular_yomanc.woff2") format("woff2");
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-weight: 600;
+  src: url("https://res.cloudinary.com/dqyhh2jit/raw/upload/v1617031697/safeup/founders-grotesk-medium_iggjj8.woff2") format("woff2");
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
